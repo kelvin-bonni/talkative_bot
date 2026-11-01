@@ -1,0 +1,39 @@
+= TalkativeBot Documentation
+Albert Atchurey
+:revnumber: {project-version}
+:toc: left
+:toclevels: 2
+:sectnums:
+:sectanchors:
+:icons: font
+:source-highlighter: coderay
+:description: Documentation for the TalkativeBot conversation orchestration library
+
+TalkativeBot is a Java 17 / Spring Boot 3 library for building stateful, channel-agnostic conversation flows.
+It helps applications ask questions, persist pending state, and resume conversations when users answer later.
+
+== Start Here
+
+* xref:getting-started.adoc[Getting Started]
+* xref:overview.adoc[Overview]
+* xref:concepts.adoc[Core Concepts]
+
+== Main Guides
+
+* xref:architecture.adoc[Architecture]
+* xref:message-flow.adoc[Message Flow]
+* xref:incoming-messages.adoc[Incoming Messages]
+* xref:scoped-conversations.adoc[Scoped Conversations]
+* xref:persistence.adoc[Persistence]
+* xref:spring-boot.adoc[Spring Boot Integration]
+
+== Reference
+
+* xref:configuration.adoc[Configuration Reference]
+* xref:extension-points.adoc[Extension Points and Package Inventory]
+* xref:examples.adoc[Examples and Testing]
+* xref:building-docs.adoc[Building This Documentation]
+
+== Design Notes
+
+* xref:design-notes/index.adoc[Design Notes]
